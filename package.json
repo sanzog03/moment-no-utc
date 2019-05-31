@@ -1,0 +1,27 @@
+{
+  "name": "@sanzog03/moment-no-utc",
+  "version": "1.0.0",
+  "description": "maintain non-utc (uniform) date-time around the globe; in top of moment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanzog03",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanzog03/moment-no-utc.git"
+  },
+  "keywords": [
+    "no-utc",
+    "utc"
+  ],
+  "bugs": {
+    "url": "https://github.com/sanzog03/moment-no-utc/issues"
+  },
+  "homepage": "https://github.com/sanzog03/moment-no-utc#readme"
+}
