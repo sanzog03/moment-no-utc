@@ -20,19 +20,22 @@ utc free moment date-time can be used to preform regular momentjs operations.
 
 To install this package:
 ```
-npm install @sanzog03/moment-no-utc
+npm i @sanzog03/moment-no-utc
 ```
+
+>NOTE: This package needs momentJS as a peer-dependency; so install it as well.
 
 Inside your js project file:
 ```
-const noUTC = require("@sanzog03/moment-no-utc")
+const noUTC = require("@sanzog03/moment-no-utc");
+const moment = require("moment");
 ```
 
 Functions usage:
 ```
 let stringDateTime = noUTC.stringDateTime(moment());
-let onlyDate = noUTC.stringDate(stringDateTime)
-let momentDate = noUTC.momentDate(onlyDate)
+let onlyDate = noUTC.standardDate(stringDateTime);
+let momentDate = noUTC.momentDate(onlyDate);
 ```
 
-now, use this moment date to do utc free moment date comparisions / expressions
+now, use this moment date to do utc free moment date comparisions/calculations.
