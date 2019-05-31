@@ -25,7 +25,7 @@ npm install @sanzog03/moment-no-utc
 
 Inside your js project file:
 ```
-require noUTC = require("@sanzog03/moment-no-utc")
+const noUTC = require("@sanzog03/moment-no-utc")
 ```
 
 Functions usage:
